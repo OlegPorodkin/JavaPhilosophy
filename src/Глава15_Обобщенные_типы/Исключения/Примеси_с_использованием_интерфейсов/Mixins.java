@@ -18,6 +18,7 @@ class TimeStampetImp implements TimeStamped {
 }
 
 interface SerialNumbered{ long getSerialNumber();}
+
 class SerialNumberImp implements SerialNumbered{
     private static long counter = 1;
     private final long serialNumber = counter ++;

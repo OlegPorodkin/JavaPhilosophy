@@ -1,30 +1,38 @@
 package Глава15_Обобщенные_типы.Ограничения;
 
-import java.awt.*;
-
-interface HasColor{
+interface HasColor {
     java.awt.Color getColor();
 }
 
-class Colored<T extends HasColor>{
+interface Weight {
+    int weight();
+}
+
+class Colored<T extends HasColor> {
     T item;
 
     public Colored(T item) {
         this.item = item;
     }
 
-    T getItem(){return item;}
+    T getItem() {
+        return item;
+    }
 
-    java.awt.Color color(){return item.getColor();}
+    java.awt.Color color() {
+        return item.getColor();
+    }
 }
-
-class Dimension{ public int x, y, z;}
 
 //Не работает -- сначала должен быть указан класс, затем интерфейс
 //class ColoredDimension<T extends HasColor & Dimension>{}
 
+class Dimension {
+    public int x, y, z;
+}
+
 //Множественное ограничение:
-class ColoredDimension<T extends Dimension & HasColor>{
+class ColoredDimension<T extends Dimension & HasColor> {
     T item;
 
     public ColoredDimension(T item) {
@@ -35,34 +43,56 @@ class ColoredDimension<T extends Dimension & HasColor>{
         return item;
     }
 
-    java.awt.Color color(){return item.getColor();}
+    java.awt.Color color() {
+        return item.getColor();
+    }
 
-    int getX(){return item.x;}
-    int getY(){return item.y;}
-    int getZ(){return item.z;}
+    int getX() {
+        return item.x;
+    }
+
+    int getY() {
+        return item.y;
+    }
+
+    int getZ() {
+        return item.z;
+    }
 }
 
-interface Weight { int weight();}
-
-class Solid<T extends Dimension & HasColor & Weight>{
+class Solid<T extends Dimension & HasColor & Weight> {
     T item;
 
     public Solid(T item) {
         this.item = item;
     }
 
-    T getItem(){return item;}
+    T getItem() {
+        return item;
+    }
 
-    java.awt.Color color(){return item.getColor();}
+    java.awt.Color color() {
+        return item.getColor();
+    }
 
-    int getX(){return item.x;}
-    int getY(){return item.y;}
-    int getZ(){return item.z;}
+    int getX() {
+        return item.x;
+    }
 
-    int weight(){return item.weight();}
+    int getY() {
+        return item.y;
+    }
+
+    int getZ() {
+        return item.z;
+    }
+
+    int weight() {
+        return item.weight();
+    }
 }
 
-class Bounded extends Dimension implements HasColor,Weight{
+class Bounded extends Dimension implements HasColor, Weight {
 
     @Override
     public java.awt.Color getColor() {
