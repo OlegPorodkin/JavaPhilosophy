@@ -1,5 +1,4 @@
-//: initialization/OptionalTrailingArguments.java
-package Глава5_Инициализация_и_завершение.списки_аргументов_переменной_длинны; /* Added by Eclipse.py */
+package Глава5_Инициализация_и_завершение.списки_аргументов_переменной_длинны;
 
 public class OptionalTrailingArguments {
   static void f(int required, String... trailing) {

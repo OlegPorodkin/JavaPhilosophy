@@ -1,5 +1,4 @@
-//: initialization/OverloadingVarargs3.java
-package Глава5_Инициализация_и_завершение; /* Added by Eclipse.py */
+package Глава5_Инициализация_и_завершение.списки_аргументов_переменной_длинны;
 
 public class OverloadingVarargs3 {
   static void f(float i, Character... args) {

@@ -1,6 +1,4 @@
-//: control/VowelsAndConsonants.java
-package Глава4_Упарвлюящие_конструкции.switch_; /* Added by Eclipse.py */
-// Demonstrates the switch statement.
+package Глава4_Упарвлюящие_конструкции.switch_;
 
 import java.util.Random;
 

@@ -1,5 +1,4 @@
-//: initialization/ArraysOfPrimitives.java
-package Глава5_Инициализация_и_завершение.инициализация_массисов; /* Added by Eclipse.py */
+package Глава5_Инициализация_и_завершение.инициализация_массисов;
 
 import static net.mindview.util.Print.print;
 

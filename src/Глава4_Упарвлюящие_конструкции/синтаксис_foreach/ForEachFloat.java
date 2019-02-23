@@ -1,5 +1,4 @@
-//: control/ForEachFloat.java
-package Глава4_Упарвлюящие_конструкции.синтаксис_foreach; /* Added by Eclipse.py */
+package Глава4_Упарвлюящие_конструкции.синтаксис_foreach;
 
 import java.util.Random;
 

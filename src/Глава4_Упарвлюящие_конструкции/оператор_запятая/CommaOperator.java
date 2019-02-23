@@ -1,5 +1,4 @@
-//: control/CommaOperator.java
-package Глава4_Упарвлюящие_конструкции.оператор_запятая; /* Added by Eclipse.py */
+package Глава4_Упарвлюящие_конструкции.оператор_запятая;
 
 public class CommaOperator {
   public static void main(String[] args) {

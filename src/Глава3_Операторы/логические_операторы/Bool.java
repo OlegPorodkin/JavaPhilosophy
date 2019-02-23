@@ -1,6 +1,4 @@
-//: operators/Bool.java
-package Глава3_Операторы.логические_операторы; /* Added by Eclipse.py */
-// Relational and logical operators.
+package Глава3_Операторы.логические_операторы;
 
 import java.util.Random;
 

@@ -1,5 +1,4 @@
-//: operators/StringOperators.java
-package Глава3_Операторы.Оператор_конкатинации; /* Added by Eclipse.py */
+package Глава3_Операторы.Оператор_конкатинации;
 
 import static net.mindview.util.Print.print;
 

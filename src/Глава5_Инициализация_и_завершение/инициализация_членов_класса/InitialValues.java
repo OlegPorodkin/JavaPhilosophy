@@ -1,6 +1,4 @@
-//: initialization/InitialValues.java
-package Глава5_Инициализация_и_завершение.инициализация_членов_класса; /* Added by Eclipse.py */
-// Shows default initial values.
+package Глава5_Инициализация_и_завершение.инициализация_членов_класса;
 
 import static net.mindview.util.Print.print;
 

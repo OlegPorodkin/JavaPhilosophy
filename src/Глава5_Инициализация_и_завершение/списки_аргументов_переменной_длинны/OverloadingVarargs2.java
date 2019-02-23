@@ -1,6 +1,4 @@
-//: initialization/OverloadingVarargs2.java
-package Глава5_Инициализация_и_завершение.списки_аргументов_переменной_длинны; /* Added by Eclipse.py */
-// {CompileTimeError} (Won't compile)
+package Глава5_Инициализация_и_завершение.списки_аргументов_переменной_длинны;
 
 public class OverloadingVarargs2 {
   static void f(float i, Character... args) {

@@ -1,5 +1,4 @@
-//: initialization/Burrito.java
-package Глава5_Инициализация_и_завершение.перечисления; /* Added by Eclipse.py */
+package Глава5_Инициализация_и_завершение.перечисления;
 
 public class Burrito {
   Spiciness degree;

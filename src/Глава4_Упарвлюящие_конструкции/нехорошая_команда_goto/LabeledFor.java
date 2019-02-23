@@ -1,6 +1,4 @@
-//: control/LabeledFor.java
-package Глава4_Упарвлюящие_конструкции.нехорошая_команда_goto; /* Added by Eclipse.py */
-// For loops with "labeled break" and "labeled continue."
+package Глава4_Упарвлюящие_конструкции.нехорошая_команда_goto;
 
 import static net.mindview.util.Print.print;
 

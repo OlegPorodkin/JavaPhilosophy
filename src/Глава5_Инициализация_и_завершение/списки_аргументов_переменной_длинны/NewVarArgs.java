@@ -1,6 +1,4 @@
-//: initialization/NewVarArgs.java
-package Глава5_Инициализация_и_завершение.списки_аргументов_переменной_длинны; /* Added by Eclipse.py */
-// Using array syntax to create variable argument lists.
+package Глава5_Инициализация_и_завершение.списки_аргументов_переменной_длинны;
 
 public class NewVarArgs {
   static void printArray(Object... args) {

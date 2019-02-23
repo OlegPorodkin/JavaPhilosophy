@@ -1,6 +1,4 @@
-//: operators/Overflow.java
-package Глава3_Операторы.сводка_операторов; /* Added by Eclipse.py */
-// Surprise! Java lets you overflow.
+package Глава3_Операторы.сводка_операторов;
 
 public class Overflow {
   public static void main(String[] args) {

@@ -1,5 +1,4 @@
-//: operators/Casting.java
-package Глава3_Операторы.операторы_приведения; /* Added by Eclipse.py */
+package Глава3_Операторы.операторы_приведения;
 
 public class Casting {
   public static void main(String[] args) {

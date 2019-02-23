@@ -1,6 +1,4 @@
-//: operators/EqualsMethod2.java
-package Глава3_Операторы.операторы_сравнения; /* Added by Eclipse.py */
-// Default equals() does not compare contents.
+package Глава3_Операторы.операторы_сравнения;
 
 class Value {
   int i;

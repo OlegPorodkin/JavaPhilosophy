@@ -1,7 +1,4 @@
-//: operators/AllOps.java
-package Глава3_Операторы.сводка_операторов; /* Added by Eclipse.py */
-// Tests all the operators on all the primitive data types
-// to show which ones are accepted by the Java compiler.
+package Глава3_Операторы.сводка_операторов;
 
 public class AllOps {
   // To accept the results of a boolean test:

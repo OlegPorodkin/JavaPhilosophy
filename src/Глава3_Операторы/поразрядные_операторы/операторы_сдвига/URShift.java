@@ -1,6 +1,4 @@
-//: operators/URShift.java
-package Глава3_Операторы.поразрядные_операторы.операторы_сдвига; /* Added by Eclipse.py */
-// Test of unsigned right shift.
+package Глава3_Операторы.поразрядные_операторы.операторы_сдвига;
 
 import static net.mindview.util.Print.print;
 

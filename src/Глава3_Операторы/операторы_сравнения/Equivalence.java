@@ -1,5 +1,4 @@
-//: operators/Equivalence.java
-package Глава3_Операторы.операторы_сравнения; /* Added by Eclipse.py */
+package Глава3_Операторы.операторы_сравнения;
 
 public class Equivalence {
   public static void main(String[] args) {

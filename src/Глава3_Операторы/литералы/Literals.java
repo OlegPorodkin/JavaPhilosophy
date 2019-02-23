@@ -1,5 +1,4 @@
-//: operators/Literals.java
-package Глава3_Операторы.литералы; /* Added by Eclipse.py */
+package Глава3_Операторы.литералы;
 
 import static net.mindview.util.Print.print;
 

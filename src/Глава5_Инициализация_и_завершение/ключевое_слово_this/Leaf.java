@@ -1,6 +1,4 @@
-//: initialization/Leaf.java
-package Глава5_Инициализация_и_завершение.ключевое_слово_this; /* Added by Eclipse.py */
-// Simple use of the "this" keyword.
+package Глава5_Инициализация_и_завершение.ключевое_слово_this;
 
 public class Leaf {
   int i = 0;

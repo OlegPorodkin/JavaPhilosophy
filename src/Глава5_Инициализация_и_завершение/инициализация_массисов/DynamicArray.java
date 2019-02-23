@@ -1,6 +1,4 @@
-//: initialization/DynamicArray.java
-package Глава5_Инициализация_и_завершение.инициализация_массисов; /* Added by Eclipse.py */
-// Array initialization.
+package Глава5_Инициализация_и_завершение.инициализация_массисов;
 
 public class DynamicArray {
   public static void main(String[] args) {

@@ -1,6 +1,4 @@
-//: operators/BitManipulation.java
-package Глава3_Операторы.поразрядные_операторы.операторы_сдвига; /* Added by Eclipse.py */
-// Using the bitwise operators.
+package Глава3_Операторы.поразрядные_операторы.операторы_сдвига;
 
 import java.util.Random;
 

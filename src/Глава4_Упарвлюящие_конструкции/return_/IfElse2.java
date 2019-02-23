@@ -1,5 +1,4 @@
-//: control/IfElse2.java
-package Глава4_Упарвлюящие_конструкции.return_; /* Added by Eclipse.py */
+package Глава4_Упарвлюящие_конструкции.return_;
 
 import static net.mindview.util.Print.print;
 

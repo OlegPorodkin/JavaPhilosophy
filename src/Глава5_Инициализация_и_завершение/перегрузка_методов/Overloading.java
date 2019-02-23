@@ -1,7 +1,4 @@
-//: initialization/Overloading.java
-package Глава5_Инициализация_и_завершение.перегрузка_методов; /* Added by Eclipse.py */
-// Demonstration of both constructor
-// and ordinary method overloading.
+package Глава5_Инициализация_и_завершение.перегрузка_методов;
 
 import static net.mindview.util.Print.print;
 

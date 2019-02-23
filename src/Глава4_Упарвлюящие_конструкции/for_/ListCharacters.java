@@ -1,7 +1,4 @@
-//: control/ListCharacters.java
-package Глава4_Упарвлюящие_конструкции.for_; /* Added by Eclipse.py */
-// Demonstrates "for" loop by listing
-// all the lowercase ASCII letters.
+package Глава4_Упарвлюящие_конструкции.for_;
 
 public class ListCharacters {
   public static void main(String[] args) {

@@ -1,6 +1,4 @@
-//: initialization/Demotion.java
-package Глава5_Инициализация_и_завершение.перегрузка_с_примитивами; /* Added by Eclipse.py */
-// Demotion of primitives and overloading.
+package Глава5_Инициализация_и_завершение.перегрузка_с_примитивами;
 
 import static net.mindview.util.Print.print;
 

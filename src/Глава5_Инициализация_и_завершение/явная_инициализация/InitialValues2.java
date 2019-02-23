@@ -1,6 +1,4 @@
-//: initialization/InitialValues2.java
-package Глава5_Инициализация_и_завершение.явная_инициализация; /* Added by Eclipse.py */
-// Providing explicit initial values.
+package Глава5_Инициализация_и_завершение.явная_инициализация;
 
 public class InitialValues2 {
   boolean bool = true;

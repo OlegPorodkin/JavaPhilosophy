@@ -1,5 +1,4 @@
-//: initialization/PassingThis.java
-package Глава5_Инициализация_и_завершение.ключевое_слово_this; /* Added by Eclipse.py */
+package Глава5_Инициализация_и_завершение.ключевое_слово_this;
 
 class Person {
   public void eat(Apple apple) {

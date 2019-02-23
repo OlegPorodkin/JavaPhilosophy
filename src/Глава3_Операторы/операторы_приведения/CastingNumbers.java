@@ -1,7 +1,4 @@
-//: operators/CastingNumbers.java
-package Глава3_Операторы.операторы_приведения; /* Added by Eclipse.py */
-// What happens when you cast a float
-// or double to an integral value?
+package Глава3_Операторы.операторы_приведения;
 
 import static net.mindview.util.Print.print;
 

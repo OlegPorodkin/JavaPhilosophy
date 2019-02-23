@@ -1,5 +1,4 @@
-//: control/ForEachString.java
-package Глава4_Упарвлюящие_конструкции.синтаксис_foreach; /* Added by Eclipse.py */
+package Глава4_Упарвлюящие_конструкции.синтаксис_foreach;
 
 public class ForEachString {
   public static void main(String[] args) {

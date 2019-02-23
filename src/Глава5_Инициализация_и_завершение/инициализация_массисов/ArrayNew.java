@@ -1,6 +1,4 @@
-//: initialization/ArrayNew.java
-package Глава5_Инициализация_и_завершение.инициализация_массисов; /* Added by Eclipse.py */
-// Creating arrays with new.
+package Глава5_Инициализация_и_завершение.инициализация_массисов;
 
 import java.util.Arrays;
 import java.util.Random;

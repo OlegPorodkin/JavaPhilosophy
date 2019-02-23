@@ -1,5 +1,4 @@
-//: initialization/BananaPeel.java
-package Глава5_Инициализация_и_завершение.ключевое_слово_this; /* Added by Eclipse.py */
+package Глава5_Инициализация_и_завершение.ключевое_слово_this;
 
 class Banana { void peel(int i) { /* ... */ } }
 

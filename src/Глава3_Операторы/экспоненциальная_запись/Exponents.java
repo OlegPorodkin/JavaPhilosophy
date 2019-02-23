@@ -1,6 +1,4 @@
-//: operators/Exponents.java
-package Глава3_Операторы.экспоненциальная_запись; /* Added by Eclipse.py */
-// "e" means "10 to the power."
+package Глава3_Операторы.экспоненциальная_запись;
 
 public class Exponents {
   public static void main(String[] args) {

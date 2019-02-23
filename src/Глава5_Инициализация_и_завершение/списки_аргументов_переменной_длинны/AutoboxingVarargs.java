@@ -1,5 +1,4 @@
-//: initialization/AutoboxingVarargs.java
-package Глава5_Инициализация_и_завершение.списки_аргументов_переменной_длинны; /* Added by Eclipse.py */
+package Глава5_Инициализация_и_завершение.списки_аргументов_переменной_длинны;
 
 public class AutoboxingVarargs {
   public static void f(Integer... args) {

@@ -1,6 +1,4 @@
-//: initialization/ArrayInit.java
-package Глава5_Инициализация_и_завершение.инициализация_массисов; /* Added by Eclipse.py */
-// Array initialization.
+package Глава5_Инициализация_и_завершение.инициализация_массисов;
 
 import java.util.Arrays;
 

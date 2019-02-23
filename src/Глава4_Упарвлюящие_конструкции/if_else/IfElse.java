@@ -1,5 +1,4 @@
-//: control/IfElse.java
-package Глава4_Упарвлюящие_конструкции.if_else; /* Added by Eclipse.py */
+package Глава4_Упарвлюящие_конструкции.if_else;
 
 import static net.mindview.util.Print.print;
 

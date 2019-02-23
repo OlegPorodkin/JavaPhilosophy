@@ -1,6 +1,4 @@
-//: initialization/Mugs.java
-package Глава5_Инициализация_и_завершение.инициализация_конструктором.инициализация_нестатических_данных; /* Added by Eclipse.py */
-// Java "Instance Initialization."
+package Глава5_Инициализация_и_завершение.инициализация_конструктором.инициализация_нестатических_данных;
 
 import static net.mindview.util.Print.print;
 

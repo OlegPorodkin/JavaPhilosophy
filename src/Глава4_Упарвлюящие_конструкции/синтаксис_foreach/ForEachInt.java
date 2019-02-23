@@ -1,5 +1,4 @@
-//: control/ForEachInt.java
-package Глава4_Упарвлюящие_конструкции.синтаксис_foreach; /* Added by Eclipse.py */
+package Глава4_Упарвлюящие_конструкции.синтаксис_foreach;
 
 import static net.mindview.util.Print.print;
 import static net.mindview.util.Print.printnb;

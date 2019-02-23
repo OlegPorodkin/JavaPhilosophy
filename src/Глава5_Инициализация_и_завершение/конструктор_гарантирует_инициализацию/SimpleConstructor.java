@@ -1,6 +1,4 @@
-//: initialization/SimpleConstructor.java
-package Глава5_Инициализация_и_завершение.конструктор_гарантирует_инициализацию; /* Added by Eclipse.py */
-// Demonstration of a simple constructor.
+package Глава5_Инициализация_и_завершение.конструктор_гарантирует_инициализацию;
 
 class Rock {
   Rock() { // This is the constructor

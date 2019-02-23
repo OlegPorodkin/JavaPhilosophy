@@ -1,5 +1,4 @@
-//: initialization/MethodInit3.java
-package Глава5_Инициализация_и_завершение; /* Added by Eclipse.py */
+package Глава5_Инициализация_и_завершение;
 public class MethodInit3 {
   //! int j = g(i); // Illegal forward reference
   int i = f();

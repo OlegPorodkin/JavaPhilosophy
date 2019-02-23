@@ -1,6 +1,4 @@
-//: initialization/OverloadingOrder.java
-package Глава5_Инициализация_и_завершение.различие_перегруженных_методов; /* Added by Eclipse.py */
-// Overloading based on the order of the arguments.
+package Глава5_Инициализация_и_завершение.различие_перегруженных_методов;
 
 import static net.mindview.util.Print.print;
 
