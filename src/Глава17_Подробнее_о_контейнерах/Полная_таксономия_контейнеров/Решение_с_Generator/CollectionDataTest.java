@@ -1,12 +1,11 @@
 package Глава17_Подробнее_о_контейнерах.Полная_таксономия_контейнеров.Решение_с_Generator;
 
-import com.sun.org.apache.xerces.internal.xs.StringList;
 import Глава15_Обобщенные_типы.Обобщенные_интерфейсы.Generator;
 
 import java.util.LinkedHashSet;
 import java.util.Set;
 
-class Goverment implements Generator<String>{
+class Goverment implements Generator<String> {
 
     String[] foundation = ("strange woman lying in ponds " +
             "distributing sword is no basis for a system of " +
@@ -21,7 +20,7 @@ class Goverment implements Generator<String>{
 
 public class CollectionDataTest {
     public static void main(String[] args) {
-        Set<String>set = new LinkedHashSet<String>(
+        Set<String> set = new LinkedHashSet<String>(
                 new CollectionData<String>(new Goverment(), 15)
         );
         set.addAll(CollectionData.list(new Goverment(), 15));
