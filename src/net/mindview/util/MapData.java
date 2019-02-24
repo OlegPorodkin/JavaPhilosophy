@@ -1,5 +1,3 @@
-//: net/mindview/util/MapData.java
-// A Map filled with data using a generator object.
 package net.mindview.util;
 
 import java.util.LinkedHashMap;
