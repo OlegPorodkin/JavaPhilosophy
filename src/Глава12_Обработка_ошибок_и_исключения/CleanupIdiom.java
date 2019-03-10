@@ -18,7 +18,7 @@ class NeedsCleanup2 extends NeedsCleanup {
 }
 
 public class CleanupIdiom {
-  public static void main(String[] args) {
+  public static void main(String[] args) throws ConstructionException {
     // Section 1:
     NeedsCleanup nc1 = new NeedsCleanup();
     try {
@@ -40,22 +40,16 @@ public class CleanupIdiom {
 
     // Section 3:
     // If construction can fail you must guard each one:
+    NeedsCleanup2 nc4 = new NeedsCleanup2();
     try {
-      NeedsCleanup2 nc4 = new NeedsCleanup2();
+      NeedsCleanup2 nc5 = new NeedsCleanup2();
       try {
-        NeedsCleanup2 nc5 = new NeedsCleanup2();
-        try {
-          // ...
-        } finally {
-          nc5.dispose();
-        }
-      } catch(ConstructionException e) { // nc5 constructor
-        System.out.println(e);
+        // ...
       } finally {
-        nc4.dispose();
+        nc5.dispose();
       }
-    } catch(ConstructionException e) { // nc4 constructor
-      System.out.println(e);
+    } finally {
+      nc4.dispose();
     }
   }
 } /* Output:
